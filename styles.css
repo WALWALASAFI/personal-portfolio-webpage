@@ -1,8 +1,15 @@
+@media (max-widt: 800px){
+  h2{
+    font-size: 2.5rem;
+  }
+}
+
 body{
    background-color: black;
    margin: 0;
    padding: 0;
 }
+
 #navbar{
   background-color: rgb(24, 117, 126);
   position: fixed;
@@ -25,7 +32,7 @@ li{
 a{
   color: white;
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1.10em;
   padding: 1rem;
 }
 
@@ -45,34 +52,98 @@ a:hover{
 h1{
   color: white;
   font-size: 3rem;
-  font-weight: 200;
+  font-weight: 500;
+  margin-top: 1.10rem;
+  line-height: 1;
+  padding-top: 10.5rem;
+  margin-bottom: 0;
+  padding-right: 60%;
+  padding-left: 0%;
+}
+h2{
+  color: white;
   text-align: center;
+  font-size: 2rem;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3{
+  color: white;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1;
+  padding-top: 0;
+  margin-bottom: 0;
+  padding-right: 60%;
+  padding-left: 0%;
+}
+
+p{
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+span{
+  color: rgb(24, 117, 126);
 }
 
 #welcome-section > p{
-  color: rgb(24, 117, 126);
-  font-size: 2rem;
-  font-weight: 200;
+  color: white;
+  font-size: 80%;
+  font-weight: 50;
+  padding-left: 5%;
+  padding-right: 50%;
+  padding-bottom: 0%;
+  padding-top: 1.5rem;
+}
+
+.body-img{
+  border-radius: 50%;
+}
+
+.body-img{
+  position: relative;
+  top: 3%;
+  width: 10vw;
+  border-radius: 60%;
+  box-shadow: 0 0 25px var rgb(24, 117, 126);
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  padding-left: 50%;
+  padding-top: 0%;
+  padding-bottom: 100%;
+}
+
+.body-img:hover{
+  box-shadow: 0 0 25px var rgb(24, 117, 126),
+              0 0 50px var rgb(24, 117, 126),
+              0 0 100px var rgb(24, 117, 126); 
 }
 
 .projects{
   margin: 0;
-  padding: 10rem 2rem;
+  padding: 8rem 2rem;
   text-align: center;
   background-color: black;
 }
 
-.project-image{
+.project-img{
   height: calc(80% - 4.8rem);
   width: 100%;
   object-fit: cover;
 }
 
-.project-title{
+.project-tile{
   color: white;
   width: 100%;
   background-color: black;
   margin: 0;
+  padding: 2rem 0;
 }
 
 .projects-grid{
