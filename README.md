@@ -3,7 +3,7 @@
 
 this is a personal-portfolio-webpage.  💙
 
-✔👌Demo link(https://walwalasafi.github.io/tribute-page/)
+✔👌Demo link
 
 
 Demo 📸
