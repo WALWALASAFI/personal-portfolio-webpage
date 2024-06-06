@@ -168,15 +168,16 @@ span {
 
 .contact form .input-box input,
 .contact form textarea {
-  width: 70%;
+  width: 90%;
   padding: 1rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: rgb(144, 219, 227);
   background: rgb(7, 19, 20);
-  border-radius: 2rem;
+  border-radius: 3rem;
   border: 2px solid rgb(71, 148, 154);
-  margin: 1.2rem 0;
+  margin: 1rem;
   resize: none;
+  text-align: center;
 }
 
 .contact form .btn {
