@@ -3,7 +3,9 @@
 
 this is a personal-portfolio-webpage.  💙
 
-✔👌Demo link
+Walwala Safi's portfolio showcases a collection of projects, including a personal portfolio website and a technical documentation page. With a focus on simplicity and elegance, it provides a glimpse into Farhat's skills in web development and design."This page contains the HTML and CSS.
+
+✔👌Demo link:-- (https://walwalasafi.github.io/personal-portfolio-webpage/)
 
 
 Demo 📸
